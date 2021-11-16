@@ -1,8 +1,10 @@
-# Add here the vendor path to be whitelisted
-# Ex: for composer directory write here "!composer" (without quotes)
-*
-!.gitignore
-!*.sch
-!*.brd
-!*.pdf
-!README.md
+# Do not include Eagle output files
+gerber/*
+*.csv
+
+# Ignore Eagle temp files
+*.b#*
+*.s#*
+
+# Do not include STM32 output files
+firmware/Debug*
