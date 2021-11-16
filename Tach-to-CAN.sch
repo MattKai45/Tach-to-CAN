@@ -147,7 +147,7 @@
 
 Created by Upverter.com</description>
 <packages>
-<package name="VISHAY_SOP-4" library_version="47" library_locally_modified="yes">
+<package name="VISHAY_SOP-4" urn="urn:adsk.eagle:footprint:18659610/1" library_version="79">
 <description>VISHAY SOP-4</description>
 <smd name="1" x="-3.125" y="1.27" dx="1.15" dy="0.9" layer="1" roundness="25"/>
 <smd name="2" x="-3.125" y="-1.27" dx="1.15" dy="0.9" layer="1" roundness="25"/>
@@ -210,7 +210,7 @@ Created by Upverter.com</description>
 <smd name="2" x="-0.95" y="-0.95" dx="0.5" dy="0.6" layer="1" roundness="25" rot="R90"/>
 <smd name="1" x="-0.95" y="0.95" dx="0.5" dy="0.6" layer="1" roundness="25" rot="R90"/>
 </package>
-<package name="TI_MSSOP8" library_version="47" library_locally_modified="yes">
+<package name="TI_MSSOP8" urn="urn:adsk.eagle:footprint:18659611/1" library_version="79">
 <description>TI MSSOP-8</description>
 <smd name="1" x="-2.2" y="0.975" dx="1.4" dy="0.45" layer="1" roundness="25"/>
 <smd name="2" x="-2.2" y="0.325" dx="1.4" dy="0.45" layer="1" roundness="25"/>
@@ -227,12 +227,12 @@ Created by Upverter.com</description>
 <wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.1" layer="51"/>
 <wire x1="1.55" y1="-1.55" x2="1.55" y2="1.55" width="0.1" layer="51"/>
 <wire x1="1.55" y1="1.55" x2="-1.55" y2="1.55" width="0.1" layer="51"/>
-<text x="0" y="2.275" size="0.8" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-2.275" size="0.8" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-3.15" y1="-1.875" x2="3.15" y2="-1.875" width="0.05" layer="39"/>
 <wire x1="3.15" y1="-1.875" x2="3.15" y2="1.875" width="0.05" layer="39"/>
 <wire x1="3.15" y1="1.875" x2="-3.15" y2="1.875" width="0.05" layer="39"/>
 <wire x1="-3.15" y1="1.875" x2="-3.15" y2="-1.875" width="0.05" layer="39"/>
+<text x="0" y="2.275" size="0.8" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-2.275" size="0.8" layer="27" align="center">&gt;VALUE</text>
 </package>
 <package name="AVX_SD1206S040S2R0" urn="urn:adsk.eagle:footprint:11366300/2" library_version="31" library_locally_modified="yes">
 <smd name="A" x="-1.5" y="0" dx="1" dy="1.5" layer="1"/>
@@ -323,7 +323,7 @@ Created by Upverter.com</description>
 <text x="0" y="0" size="0.5" layer="51" rot="R270" align="center">&gt;VALUE</text>
 <text x="0" y="2.6" size="0.8" layer="25" align="top-center">&gt;NAME</text>
 </package>
-<package name="STM32F303K8T6" urn="urn:adsk.eagle:footprint:14872868/1" locally_modified="yes" library_version="47" library_locally_modified="yes">
+<package name="STM32F303K8T6" urn="urn:adsk.eagle:footprint:14872868/2" library_version="79">
 <description>MC-ARM-STM32F303-LQFP32</description>
 <wire x1="-3.05" y1="-3.05" x2="3.05" y2="-3.05" width="0.15" layer="21"/>
 <wire x1="-3.05" y1="3.05" x2="3.05" y2="3.05" width="0.15" layer="21"/>
@@ -416,17 +416,21 @@ Created by Upverter.com</description>
 <rectangle x1="-2.55" y1="-0.15" x2="2.6" y2="0.15" layer="39"/>
 <circle x="0" y="0" radius="0.25" width="0.01" layer="23"/>
 </package>
-<package name="CSTCR6M" urn="urn:adsk.eagle:footprint:17279408/1" locally_modified="yes" library_version="1">
+<package name="CSTCR6M" urn="urn:adsk.eagle:footprint:17279408/3" library_version="1">
 <description>Source: http://search.murata.co.jp/Ceramy/CatalogshowpageAction.do?sDirnm=A07X&amp;sFilnm=81G07006&amp;sType=2&amp;sLang=en&amp;sNHinnm=CSTCR6M00G53Z-R0&amp;sCapt=Standard_Land_Pattern_Dimensions</description>
 <wire x1="-2.2" y1="-0.95" x2="2.2" y2="-0.95" width="0.1016" layer="51"/>
 <wire x1="2.2" y1="-0.95" x2="2.2" y2="0.95" width="0.15" layer="21"/>
 <wire x1="2.2" y1="0.95" x2="-2.2" y2="0.95" width="0.1016" layer="51"/>
 <wire x1="-2.2" y1="0.95" x2="-2.2" y2="-0.95" width="0.15" layer="21"/>
+<wire x1="-2.5" y1="1.6" x2="2.5" y2="1.6" width="0.05" layer="39"/>
+<wire x1="2.5" y1="1.6" x2="2.5" y2="-1.6" width="0.05" layer="39"/>
+<wire x1="2.5" y1="-1.6" x2="-2.5" y2="-1.6" width="0.05" layer="39"/>
+<wire x1="-2.5" y1="-1.6" x2="-2.5" y2="1.6" width="0.05" layer="39"/>
 <smd name="1" x="-1.5" y="0" dx="0.8" dy="2.6" layer="1" roundness="25" stop="no" cream="no"/>
 <smd name="2" x="0" y="0" dx="0.8" dy="2.6" layer="1" roundness="25" stop="no" cream="no"/>
 <smd name="3" x="1.5" y="0" dx="0.8" dy="2.6" layer="1" roundness="25" stop="no" cream="no"/>
-<text x="-2.54" y="1.524" size="1" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.794" size="1" layer="27">&gt;VALUE</text>
+<text x="0" y="2.2" size="1" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-2.2" size="1" layer="27" align="center">&gt;VALUE</text>
 <rectangle x1="-0.4" y1="0.8" x2="0.4" y2="1.3" layer="29"/>
 <rectangle x1="-0.4" y1="-1.3" x2="0.4" y2="-0.8" layer="29" rot="R180"/>
 <rectangle x1="-0.2" y1="-0.8" x2="0.2" y2="0.8" layer="29"/>
@@ -439,10 +443,6 @@ Created by Upverter.com</description>
 <rectangle x1="-1.7" y1="-0.8" x2="-1.3" y2="0.8" layer="31"/>
 <rectangle x1="-0.2" y1="-0.8" x2="0.2" y2="0.8" layer="31"/>
 <rectangle x1="1.3" y1="-0.8" x2="1.7" y2="0.8" layer="31"/>
-<wire x1="-2.5" y1="1.6" x2="2.5" y2="1.6" width="0.05" layer="39"/>
-<wire x1="2.5" y1="1.6" x2="2.5" y2="-1.6" width="0.05" layer="39"/>
-<wire x1="2.5" y1="-1.6" x2="-2.5" y2="-1.6" width="0.05" layer="39"/>
-<wire x1="-2.5" y1="-1.6" x2="-2.5" y2="1.6" width="0.05" layer="39"/>
 </package>
 <package name="CONN_100MIL_4_PIN" urn="urn:adsk.eagle:footprint:16445630/2" library_version="47" library_locally_modified="yes">
 <pad name="1" x="-3.81" y="0" drill="1" diameter="1.5"/>
@@ -475,12 +475,12 @@ Created by Upverter.com</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="VISHAY_SMF18A-HM3-08" urn="urn:adsk.eagle:package:11366306/3" type="box" library_version="47" library_locally_modified="yes">
+<package3d name="VISHAY_SMF18A-HM3-08" urn="urn:adsk.eagle:package:11366306/6" type="model" library_version="79">
 <packageinstances>
 <packageinstance name="VISHAY_SMFXXA-HM3-08"/>
 </packageinstances>
 </package3d>
-<package3d name="NXP_SOT23" urn="urn:adsk.eagle:package:14872880/2" type="box" library_version="47" library_locally_modified="yes">
+<package3d name="NXP_SOT23" urn="urn:adsk.eagle:package:14872880/3" type="model" library_version="79">
 <description>NXP-NMOS-GSD-3</description>
 <packageinstances>
 <packageinstance name="NXP_SOT23"/>
@@ -501,7 +501,7 @@ Created by Upverter.com</description>
 <packageinstance name="BOURNS_CDSOT23-T24CAN-Q"/>
 </packageinstances>
 </package3d>
-<package3d name="STM32F303K8T6" urn="urn:adsk.eagle:package:14872876/2" type="model" library_version="47" library_locally_modified="yes">
+<package3d name="STM32F303K8T6" urn="urn:adsk.eagle:package:14872876/3" type="model" library_version="79">
 <description>MC-ARM-STM32F303-LQFP32</description>
 <packageinstances>
 <packageinstance name="STM32F303K8T6"/>
@@ -513,7 +513,7 @@ Created by Upverter.com</description>
 <packageinstance name="TC2050-IDC"/>
 </packageinstances>
 </package3d>
-<package3d name="CSTCR6M" urn="urn:adsk.eagle:package:17279410/1" type="box" library_version="47" library_locally_modified="yes">
+<package3d name="CSTCR6M" urn="urn:adsk.eagle:package:17279410/3" type="box" library_version="79">
 <description>Source: http://search.murata.co.jp/Ceramy/CatalogshowpageAction.do?sDirnm=A07X&amp;sFilnm=81G07006&amp;sType=2&amp;sLang=en&amp;sNHinnm=CSTCR6M00G53Z-R0&amp;sCapt=Standard_Land_Pattern_Dimensions</description>
 <packageinstances>
 <packageinstance name="CSTCR6M"/>
@@ -528,6 +528,18 @@ Created by Upverter.com</description>
 <description>Wurth Elektronik Standard 0603 LED</description>
 <packageinstances>
 <packageinstance name="WURTH_0603_LED"/>
+</packageinstances>
+</package3d>
+<package3d name="VISHAY_SOP-4" urn="urn:adsk.eagle:package:18659614/1" type="box" library_version="79">
+<description>VISHAY SOP-4</description>
+<packageinstances>
+<packageinstance name="VISHAY_SOP-4"/>
+</packageinstances>
+</package3d>
+<package3d name="TI_MSSOP8" urn="urn:adsk.eagle:package:18659615/1" type="box" library_version="79">
+<description>TI MSSOP-8</description>
+<packageinstances>
+<packageinstance name="TI_MSSOP8"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -568,7 +580,7 @@ Created by Upverter.com</description>
 <text x="31.75" y="11.43" size="2.54" layer="94" align="center-left">&gt;SHEET_HEADLINE</text>
 <text x="93.98" y="8.89" size="2.54" layer="94" align="center">&gt;SCH_REV</text>
 </symbol>
-<symbol name="OPTOCOUPLER_4PIN" library_version="47" library_locally_modified="yes">
+<symbol name="OPTOCOUPLER_4PIN" urn="urn:adsk.eagle:symbol:18659606/1" library_version="79">
 <description>OPTOCOUPLER</description>
 <pin name="1" x="-15.24" y="5.08" visible="pad" length="middle"/>
 <pin name="2" x="-15.24" y="-5.08" visible="pad" length="middle"/>
@@ -681,7 +693,7 @@ Created by Upverter.com</description>
 <pin name="S" x="0" y="-10.16" visible="pad" length="middle" direction="pas" rot="R90"/>
 <pin name="D" x="0" y="7.62" visible="pad" length="middle" direction="pas" rot="R270"/>
 </symbol>
-<symbol name="TI_TPS7A1633AQDGNRQ1" library_version="47" library_locally_modified="yes">
+<symbol name="TI_TPS7A1633AQDGNRQ1" urn="urn:adsk.eagle:symbol:18659607/1" library_version="79">
 <description>TI_LDO</description>
 <pin name="IN" x="-17.78" y="7.62" length="middle"/>
 <pin name="EN" x="-17.78" y="0" length="middle"/>
@@ -689,11 +701,11 @@ Created by Upverter.com</description>
 <pin name="GND" x="17.78" y="-7.62" length="middle" rot="R180"/>
 <pin name="PG" x="17.78" y="0" length="middle" rot="R180"/>
 <pin name="OUT" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="PAD" x="0" y="-15.24" length="middle" rot="R90"/>
 <wire x1="-12.7" y1="10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
 <wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
-<pin name="PAD" x="0" y="-15.24" length="middle" rot="R90"/>
 </symbol>
 <symbol name="DIODE" urn="urn:adsk.eagle:symbol:11366304/3" library_version="46">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -709,7 +721,7 @@ Created by Upverter.com</description>
 <pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 </symbol>
-<symbol name="TI_SN65HVD23X" urn="urn:adsk.eagle:symbol:11315317/4" library_version="47" library_locally_modified="yes">
+<symbol name="TI_SN65HVD23X" urn="urn:adsk.eagle:symbol:11315317/5" library_version="79">
 <pin name="TXD" x="-15.24" y="5.08" length="middle" direction="in"/>
 <pin name="GND" x="-15.24" y="-15.24" length="middle"/>
 <pin name="VCC" x="-15.24" y="-5.08" length="middle"/>
@@ -722,7 +734,7 @@ Created by Upverter.com</description>
 <wire x1="-10.16" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
 <wire x1="10.16" y1="17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
-<text x="0" y="-20.32" size="1.778" layer="96" align="bottom-center">&gt;PARTNUMBER</text>
+<text x="0" y="-20.32" size="1.778" layer="96" align="bottom-center">&gt;PN</text>
 <text x="0" y="20.32" size="1.778" layer="95" align="top-center">&gt;NAME</text>
 </symbol>
 <symbol name="BOURNS_CDSOT23-T24CAN-Q" urn="urn:adsk.eagle:symbol:11321500/5" library_version="46">
@@ -778,13 +790,13 @@ Created by Upverter.com</description>
 <text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;PN</text>
 <circle x="1.905" y="0" radius="0.127" width="0.254" layer="94"/>
 </symbol>
-<symbol name="STM32F303K8T6" urn="urn:adsk.eagle:symbol:14872860/1" library_version="47" library_locally_modified="yes">
+<symbol name="STM32F303K8T6" urn="urn:adsk.eagle:symbol:14872860/2" library_version="79">
 <wire x1="-17.78" y1="-48.26" x2="-17.78" y2="43.18" width="0.508" layer="94"/>
 <wire x1="-17.78" y1="43.18" x2="17.78" y2="43.18" width="0.508" layer="94"/>
 <wire x1="17.78" y1="43.18" x2="17.78" y2="-48.26" width="0.508" layer="94"/>
 <wire x1="17.78" y1="-48.26" x2="-17.78" y2="-48.26" width="0.508" layer="94"/>
 <text x="0" y="45.72" size="2.54" layer="95" align="center">&gt;NAME</text>
-<text x="0" y="-50.8" size="2.54" layer="95" align="center">&gt;PARTNUMBER</text>
+<text x="0" y="-50.8" size="2.54" layer="95" align="center">&gt;PN</text>
 <pin name="1_VDD" x="22.86" y="-22.86" length="middle" direction="pwr" rot="R180"/>
 <pin name="PF0/OSC_IN" x="22.86" y="5.08" length="middle" rot="R180"/>
 <pin name="PF1/OSC_OUT" x="22.86" y="0" length="middle" rot="R180"/>
@@ -939,7 +951,7 @@ Created by Upverter.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VISHAY_VOMA618A-2X001T" prefix="U" library_version="47" library_locally_modified="yes">
+<deviceset name="VISHAY_VOMA618A-2X001T" urn="urn:adsk.eagle:component:18659654/1" prefix="U" library_version="79">
 <description>OPTOCOUPLER, AEC-Q101, 3.75KV, SOP-4</description>
 <gates>
 <gate name="G$1" symbol="OPTOCOUPLER_4PIN" x="0" y="0"/>
@@ -952,6 +964,9 @@ Created by Upverter.com</description>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18659614/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MFG" value="VISHAY"/>
@@ -964,7 +979,8 @@ Created by Upverter.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VISHAY_SMF18A-HM3-08" urn="urn:adsk.eagle:component:11366310/6" prefix="D" library_version="47" library_locally_modified="yes">
+<deviceset name="VISHAY_SMF18A-HM3-08" urn="urn:adsk.eagle:component:11366310/7" prefix="D" library_version="79">
+<description>TVS DIODE 18V 29.2V DO219AB</description>
 <gates>
 <gate name="G$1" symbol="ZENER_DIODE" x="0" y="0"/>
 </gates>
@@ -975,7 +991,7 @@ Created by Upverter.com</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11366306/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11366306/6"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -989,7 +1005,7 @@ Created by Upverter.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NXP_NX3008NBK,215" urn="urn:adsk.eagle:component:14872888/3" prefix="Q" library_version="47" library_locally_modified="yes">
+<deviceset name="NXP_NX3008NBK,215" urn="urn:adsk.eagle:component:14872888/4" prefix="Q" library_version="79">
 <description>NXP-NMOS-GSD-3</description>
 <gates>
 <gate name="G$0" symbol="NFET_ESD" x="0" y="0"/>
@@ -1002,7 +1018,7 @@ Created by Upverter.com</description>
 <connect gate="G$0" pin="S" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14872880/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14872880/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1016,7 +1032,7 @@ Created by Upverter.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TI_TPS7A1633AQDGNRQ1" prefix="U" library_version="47" library_locally_modified="yes">
+<deviceset name="TI_TPS7A1633AQDGNRQ1" urn="urn:adsk.eagle:component:18659655/1" prefix="U" library_version="79">
 <description>LDO Voltage Regulators Automotive 60-V, 5--A IQ, 100-mA low-dropout (LDO) voltage regulator with enable and power good 8-MSOP-PowerPAD -40 to 125</description>
 <gates>
 <gate name="G$1" symbol="TI_TPS7A1633AQDGNRQ1" x="0" y="0"/>
@@ -1032,6 +1048,9 @@ Created by Upverter.com</description>
 <connect gate="G$1" pin="PAD" pad="PAD"/>
 <connect gate="G$1" pin="PG" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18659615/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MFG" value="TI"/>
@@ -1070,7 +1089,7 @@ Created by Upverter.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TI_SN65HVD23X" urn="urn:adsk.eagle:component:11315319/11" prefix="U" uservalue="yes" library_version="47" library_locally_modified="yes">
+<deviceset name="TI_SN65HVD23X" urn="urn:adsk.eagle:component:11315319/12" prefix="U" library_version="79">
 <description>3.3V CAN Bus TRANSCEIVER</description>
 <gates>
 <gate name="G$1" symbol="TI_SN65HVD23X" x="0" y="0"/>
@@ -1092,16 +1111,18 @@ Created by Upverter.com</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER" value="TEXAS INSTRUMENTS"/>
-<attribute name="PARTNUMBER" value=" SN65HVD232QDRQ1 "/>
+<attribute name="MFG" value="TEXAS INSTRUMENTS"/>
+<attribute name="MNT" value="SMD"/>
 <attribute name="PINS" value="8"/>
+<attribute name="PKG" value="SOIC8"/>
+<attribute name="PN" value=" SN65HVD232QDRQ1 "/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BOURNS_CDSOT23-T24CAN-Q" urn="urn:adsk.eagle:component:11321502/8" prefix="D" library_version="46">
-<description>ESD and surge protection for CAN transceivers</description>
+<deviceset name="BOURNS_CDSOT23-T24CAN-Q" urn="urn:adsk.eagle:component:11321502/9" prefix="D" library_version="79">
+<description>CAN BUS TVS DIODE 40V SOT23-3</description>
 <gates>
 <gate name="G$1" symbol="BOURNS_CDSOT23-T24CAN-Q" x="0" y="0"/>
 </gates>
@@ -1127,7 +1148,7 @@ Created by Upverter.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F303K8T6" urn="urn:adsk.eagle:component:14872884/2" prefix="U" library_version="47" library_locally_modified="yes">
+<deviceset name="STM32F303K8T6" urn="urn:adsk.eagle:component:14872884/4" prefix="U" library_version="79">
 <description>MC-ARM-STM32F303-LQFP32</description>
 <gates>
 <gate name="G$0" symbol="STM32F303K8T6" x="0" y="0"/>
@@ -1169,12 +1190,15 @@ Created by Upverter.com</description>
 <connect gate="G$0" pin="VDDA/VREF+" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14872876/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14872876/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER" value="STMICROELECTRONICS"/>
-<attribute name="PARTNUMBER" value="STM32F303K8T6"/>
+<attribute name="MFG" value="STMICROELECTRONICS"/>
+<attribute name="MNT" value="SMD"/>
+<attribute name="PINS" value="32"/>
+<attribute name="PKG" value="LQFP32"/>
+<attribute name="PN" value="STM32F303K8T6"/>
 </technology>
 </technologies>
 </device>
@@ -1211,7 +1235,7 @@ Created by Upverter.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CSTNE8M00GH5C000R0" urn="urn:adsk.eagle:component:17279411/1" prefix="Q" library_version="47" library_locally_modified="yes">
+<deviceset name="CSTNE8M00GH5C000R0" urn="urn:adsk.eagle:component:17279411/3" prefix="Q" library_version="79">
 <description>CERAMIC RES 8.0000MHZ 33PF SMD</description>
 <gates>
 <gate name="G$1" symbol="CST" x="0" y="0"/>
@@ -1224,7 +1248,7 @@ Created by Upverter.com</description>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:17279410/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17279410/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1286,6 +1310,30 @@ Created by Upverter.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="NEXPERIA_PMV60ENEAR" urn="urn:adsk.eagle:component:16857603/3" prefix="Q" library_version="79">
+<description>MOSFET PMV60ENEA - 40V, N-channel Trench MOSFET</description>
+<gates>
+<gate name="G$1" symbol="NFET_ESD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NXP_SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14872880/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="NEXPERIA"/>
+<attribute name="PARTNUMBER" value="PMV60ENEAR"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="resistors" urn="urn:adsk.eagle:library:17222604">
@@ -1340,8 +1388,8 @@ Created by Upverter.com</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1KOHM" urn="urn:adsk.eagle:component:17215474/2" prefix="R" library_version="3">
-<description>RESISTOR</description>
+<deviceset name="1KOHM" urn="urn:adsk.eagle:component:17215474/3" prefix="R" library_version="5">
+<description>RES, 0603, 1K OHM, 1%, 1/10W</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -1367,8 +1415,8 @@ Created by Upverter.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="10KOHM" urn="urn:adsk.eagle:component:17215482/2" prefix="R" library_version="3">
-<description>RESISTOR</description>
+<deviceset name="10KOHM" urn="urn:adsk.eagle:component:17215482/3" prefix="R" library_version="5">
+<description>RES, 0603, 10K OHM, 1%, 1/10W</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -1394,8 +1442,8 @@ Created by Upverter.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="100OHM" urn="urn:adsk.eagle:component:17215483/2" prefix="R" library_version="3">
-<description>RESISTOR</description>
+<deviceset name="100OHM" urn="urn:adsk.eagle:component:17215483/3" prefix="R" library_version="5">
+<description>RES, 0603, 100 OHM, 1%, 1/10W</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -1421,8 +1469,8 @@ Created by Upverter.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="60.4OHM" urn="urn:adsk.eagle:component:17215464/2" prefix="R" library_version="3">
-<description>RESISTOR</description>
+<deviceset name="60.4OHM" urn="urn:adsk.eagle:component:17215464/3" prefix="R" library_version="5">
+<description>RES, 0603, 60.4 OHM, 1%, 1/10W</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -1448,8 +1496,8 @@ Created by Upverter.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="0OHM" urn="urn:adsk.eagle:component:17215484/2" prefix="R" library_version="3">
-<description>RESISTOR</description>
+<deviceset name="0OHM" urn="urn:adsk.eagle:component:17215484/3" prefix="R" library_version="5">
+<description>RES, 0603, 0 OHM, 1%, 1/10W</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -1475,8 +1523,8 @@ Created by Upverter.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="470OHM" urn="urn:adsk.eagle:component:17215465/2" prefix="R" library_version="3">
-<description>RESISTOR</description>
+<deviceset name="470OHM" urn="urn:adsk.eagle:component:17215465/3" prefix="R" library_version="5">
+<description>RES, 0603, 470 OHM, 1%, 1/10W</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -1812,7 +1860,7 @@ Created by Upverter.com</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="VISHAY_VOMA618A-2X001T" device="">
+<part name="U1" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="VISHAY_VOMA618A-2X001T" device="" package3d_urn="urn:adsk.eagle:package:18659614/1">
 <spice>
 <pinmapping isusermap="yes" isdevicewide="yes">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -1823,27 +1871,24 @@ Created by Upverter.com</description>
 </spice>
 <attribute name="SPICEPREFIX" value="E"/>
 </part>
-<part name="R1" library="resistors" library_urn="urn:adsk.eagle:library:17222604" deviceset="1KOHM" device="-0603-1%-1/10W" package3d_urn="urn:adsk.eagle:package:11247133/7" value="1k"/>
 <part name="R2" library="resistors" library_urn="urn:adsk.eagle:library:17222604" deviceset="10KOHM" device="-0603-1%-1/10W" package3d_urn="urn:adsk.eagle:package:11247133/7" value="10k"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R3" library="resistors" library_urn="urn:adsk.eagle:library:17222604" deviceset="1KOHM" device="-0603-1%-1/10W" package3d_urn="urn:adsk.eagle:package:11247133/7" value="1k"/>
-<part name="D1" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="VISHAY_SMF18A-HM3-08" device="" package3d_urn="urn:adsk.eagle:package:11366306/3"/>
 <part name="R4" library="resistors" library_urn="urn:adsk.eagle:library:17222604" deviceset="1KOHM" device="-0603-1%-1/10W" package3d_urn="urn:adsk.eagle:package:11247133/7" value="1k"/>
 <part name="C1" library="capacitors" library_urn="urn:adsk.eagle:library:17222610" deviceset="0.1UF" device="-X7R-50V-20%" package3d_urn="urn:adsk.eagle:package:11321588/8" value="0.1u"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q1" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="NXP_NX3008NBK,215" device="NXP_SOT23" package3d_urn="urn:adsk.eagle:package:14872880/2"/>
+<part name="Q1" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="NXP_NX3008NBK,215" device="NXP_SOT23" package3d_urn="urn:adsk.eagle:package:14872880/3"/>
 <part name="R5" library="resistors" library_urn="urn:adsk.eagle:library:17222604" deviceset="10KOHM" device="-0603-1%-1/10W" package3d_urn="urn:adsk.eagle:package:11247133/7" value="10k"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R6" library="resistors" library_urn="urn:adsk.eagle:library:17222604" deviceset="1KOHM" device="-0603-1%-1/10W" package3d_urn="urn:adsk.eagle:package:11247133/7" value="1k"/>
-<part name="U3" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="TI_TPS7A1633AQDGNRQ1" device=""/>
+<part name="U3" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="TI_TPS7A1633AQDGNRQ1" device="" package3d_urn="urn:adsk.eagle:package:18659615/1"/>
 <part name="FRAME2" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="FRAME_A_L" device=""/>
 <part name="FRAME3" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="FRAME_A_L" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="capacitors" library_urn="urn:adsk.eagle:library:17222610" deviceset="2.2UF" device="-X7R-25V-10%" package3d_urn="urn:adsk.eagle:package:11376382/6" value="2.2u"/>
 <part name="C3" library="capacitors" library_urn="urn:adsk.eagle:library:17222610" deviceset="4.7UF" device="-X7R-50V-10%" package3d_urn="urn:adsk.eagle:package:11376984/4" value="4.7u"/>
 <part name="C4" library="capacitors" library_urn="urn:adsk.eagle:library:17222610" deviceset="0.1UF" device="-X7R-50V-20%" package3d_urn="urn:adsk.eagle:package:11321588/8" value="0.1u"/>
-<part name="D2" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="VISHAY_SMF18A-HM3-08" device="" package3d_urn="urn:adsk.eagle:package:11366306/3"/>
-<part name="D3" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="VISHAY_SMF18A-HM3-08" device="" package3d_urn="urn:adsk.eagle:package:11366306/3"/>
+<part name="D2" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="VISHAY_SMF18A-HM3-08" device="" package3d_urn="urn:adsk.eagle:package:11366306/6"/>
+<part name="D3" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="VISHAY_SMF18A-HM3-08" device="" package3d_urn="urn:adsk.eagle:package:11366306/6"/>
 <part name="C5" library="capacitors" library_urn="urn:adsk.eagle:library:17222610" deviceset="2.2UF" device="-X7R-25V-10%" package3d_urn="urn:adsk.eagle:package:11376382/6" value="2.2u"/>
 <part name="C6" library="capacitors" library_urn="urn:adsk.eagle:library:17222610" deviceset="4.7UF" device="-X7R-50V-10%" package3d_urn="urn:adsk.eagle:package:11376984/4" value="4.7u"/>
 <part name="C7" library="capacitors" library_urn="urn:adsk.eagle:library:17222610" deviceset="0.1UF" device="-X7R-50V-20%" package3d_urn="urn:adsk.eagle:package:11321588/8" value="0.1u"/>
@@ -1873,9 +1918,9 @@ Created by Upverter.com</description>
 <variant name="Production" populate="no"/>
 </part>
 <part name="C9" library="capacitors" library_urn="urn:adsk.eagle:library:17222610" deviceset="0.1UF" device="-X7R-50V-20%" package3d_urn="urn:adsk.eagle:package:11321588/8" value="0.1u"/>
-<part name="U4" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="STM32F303K8T6" device="STMICROELECTRONICS_STM32F303K8T6" package3d_urn="urn:adsk.eagle:package:14872876/2"/>
+<part name="U4" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="STM32F303K8T6" device="STMICROELECTRONICS_STM32F303K8T6" package3d_urn="urn:adsk.eagle:package:14872876/3"/>
 <part name="TAG1" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="TC2050-IDC" device="" package3d_urn="urn:adsk.eagle:package:14872879/2"/>
-<part name="Q2" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="CSTNE8M00GH5C000R0" device="" package3d_urn="urn:adsk.eagle:package:17279410/1" value="8MHz"/>
+<part name="Q2" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="CSTNE8M00GH5C000R0" device="" package3d_urn="urn:adsk.eagle:package:17279410/3" value="8MHz"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R9" library="resistors" library_urn="urn:adsk.eagle:library:17222604" deviceset="100OHM" device="-0603-1%-1/10W" package3d_urn="urn:adsk.eagle:package:11247133/7" value="100"/>
@@ -1889,8 +1934,6 @@ Created by Upverter.com</description>
 <part name="C11" library="capacitors" library_urn="urn:adsk.eagle:library:17222610" deviceset="0.1UF" device="-X7R-50V-20%" package3d_urn="urn:adsk.eagle:package:11321588/8" value="0.1u"/>
 <part name="C12" library="capacitors" library_urn="urn:adsk.eagle:library:17222610" deviceset="0.1UF" device="-X7R-50V-20%" package3d_urn="urn:adsk.eagle:package:11321588/8" value="0.1u"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R13" library="resistors" library_urn="urn:adsk.eagle:library:17222604" deviceset="0OHM" device="-0603-1%-1/10W" package3d_urn="urn:adsk.eagle:package:11247133/7" value="0"/>
-<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="CONN_4PIN_VERT" device="" package3d_urn="urn:adsk.eagle:package:16445632/2"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J2" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="CONN_4PIN_VERT" device="" package3d_urn="urn:adsk.eagle:package:16445632/2"/>
@@ -1906,48 +1949,40 @@ Created by Upverter.com</description>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R19" library="resistors" library_urn="urn:adsk.eagle:library:17222604" deviceset="1KOHM" device="-0603-1%-1/10W" package3d_urn="urn:adsk.eagle:package:11247133/7" value="1k"/>
 <part name="FRAME1" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="FRAME_A_L" device=""/>
+<part name="Q3" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="NEXPERIA_PMV60ENEAR" device="" package3d_urn="urn:adsk.eagle:package:14872880/3"/>
+<part name="R20" library="resistors" library_urn="urn:adsk.eagle:library:17222604" deviceset="1KOHM" device="-0603-1%-1/10W" package3d_urn="urn:adsk.eagle:package:11247133/7" value="1k"/>
+<part name="R21" library="resistors" library_urn="urn:adsk.eagle:library:17222604" deviceset="1KOHM" device="-0603-1%-1/10W" package3d_urn="urn:adsk.eagle:package:11247133/7" value="1k"/>
+<part name="R22" library="resistors" library_urn="urn:adsk.eagle:library:17222604" deviceset="0OHM" device="-0603-1%-1/10W" package3d_urn="urn:adsk.eagle:package:11247133/7" value="0"/>
+<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="D9" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="VISHAY_SMF18A-HM3-08" device="" package3d_urn="urn:adsk.eagle:package:11366306/6"/>
+<part name="R23" library="resistors" library_urn="urn:adsk.eagle:library:17222604" deviceset="1KOHM" device="-0603-1%-1/10W" package3d_urn="urn:adsk.eagle:package:11247133/7" value="1k"/>
+<part name="D1" library="AlphaLibrary" library_urn="urn:adsk.eagle:library:11247130" deviceset="VISHAY_SMF18A-HM3-08" device="" package3d_urn="urn:adsk.eagle:package:11366306/6"/>
 </parts>
 <sheets>
 <sheet>
 <description>TACHOMETER ISOLATION</description>
 <plain>
+<text x="111.76" y="81.28" size="1.778" layer="97" align="top-left">REVB - Add NFET to buffer the TACH_IN signal. It was found that the tachometer does not work if too
+much current is drawn from the Tach-to-CAN module. Therefore, the module was changed from a
+current based trigger to a voltage based trigger.</text>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="187.96" y="116.84" smashed="yes">
-<attribute name="PN" x="187.96" y="106.68" size="2.54" layer="96" align="center"/>
-<attribute name="NAME" x="187.96" y="127" size="2.54" layer="95" align="center"/>
+<instance part="U1" gate="G$1" x="208.28" y="116.84" smashed="yes">
+<attribute name="PN" x="208.28" y="106.68" size="2.54" layer="96" align="center"/>
+<attribute name="NAME" x="208.28" y="127" size="2.54" layer="95" align="center"/>
 </instance>
-<instance part="R1" gate="G$1" x="116.84" y="121.92" smashed="yes">
-<attribute name="NAME" x="116.84" y="123.825" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="116.84" y="120.015" size="1.778" layer="96" align="top-center"/>
+<instance part="R2" gate="G$1" x="233.68" y="132.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="235.585" y="132.08" size="1.778" layer="95" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="231.775" y="132.08" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="213.36" y="132.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="215.265" y="132.08" size="1.778" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="211.455" y="132.08" size="1.778" layer="96" rot="R270" align="top-center"/>
+<instance part="GND1" gate="1" x="233.68" y="101.6" smashed="yes">
+<attribute name="VALUE" x="231.14" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="213.36" y="101.6" smashed="yes">
-<attribute name="VALUE" x="210.82" y="99.06" size="1.778" layer="96"/>
+<instance part="J2" gate="G$1" x="15.24" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="15.24" y="101.6" size="1.778" layer="95" rot="R180" align="top-center"/>
 </instance>
-<instance part="R3" gate="G$1" x="116.84" y="111.76" smashed="yes">
-<attribute name="NAME" x="116.84" y="113.665" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="116.84" y="109.855" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="D1" gate="G$1" x="149.86" y="116.84" smashed="yes" rot="R90">
-<attribute name="NAME" x="147.32" y="116.84" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="PN" x="162.56" y="116.84" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="R13" gate="G$1" x="109.22" y="101.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="107.315" y="101.6" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="111.125" y="101.6" size="1.778" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="GND14" gate="1" x="109.22" y="91.44" smashed="yes">
-<attribute name="VALUE" x="106.68" y="88.9" size="1.778" layer="96"/>
-</instance>
-<instance part="J2" gate="G$1" x="35.56" y="116.84" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.56" y="104.14" size="1.778" layer="95" rot="R180" align="top-center"/>
-</instance>
-<instance part="GND16" gate="1" x="53.34" y="119.38" smashed="yes" rot="R90">
-<attribute name="VALUE" x="55.88" y="116.84" size="1.778" layer="96" rot="R90"/>
+<instance part="GND16" gate="1" x="30.48" y="116.84" smashed="yes" rot="R90">
+<attribute name="VALUE" x="33.02" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
@@ -1959,104 +1994,168 @@ Created by Upverter.com</description>
 <attribute name="SHEET_HEADLINE" x="204.47" y="11.43" size="2.54" layer="94" align="center-left"/>
 <attribute name="SCH_REV" x="266.7" y="8.89" size="2.54" layer="94" align="center"/>
 </instance>
+<instance part="Q3" gate="G$1" x="167.64" y="114.3" smashed="yes">
+<attribute name="NAME" x="165.1" y="119.38" size="1.778" layer="95" align="bottom-right"/>
+</instance>
+<instance part="R20" gate="G$1" x="101.6" y="114.3" smashed="yes">
+<attribute name="NAME" x="101.6" y="116.205" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="101.6" y="112.395" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="R21" gate="G$1" x="101.6" y="99.06" smashed="yes">
+<attribute name="NAME" x="101.6" y="100.965" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="101.6" y="97.155" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="R22" gate="G$1" x="93.98" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="92.075" y="88.9" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="95.885" y="88.9" size="1.778" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="GND20" gate="1" x="93.98" y="78.74" smashed="yes">
+<attribute name="VALUE" x="91.44" y="76.2" size="1.778" layer="96"/>
+</instance>
+<instance part="D9" gate="G$1" x="132.08" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="129.54" y="106.68" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="PN" x="144.78" y="106.68" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="R23" gate="G$1" x="167.64" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="169.545" y="137.16" size="1.778" layer="95" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="165.735" y="137.16" size="1.778" layer="96" rot="R270" align="top-center"/>
+</instance>
+<instance part="D1" gate="G$1" x="132.08" y="144.78" smashed="yes">
+<attribute name="NAME" x="132.08" y="147.32" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="PN" x="132.08" y="142.24" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="TACH_ANODE" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="U1" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
-<label x="124.46" y="121.92" size="1.778" layer="95"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="149.86" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="119.38" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
-<junction x="149.86" y="121.92"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="114.3" x2="132.08" y2="114.3" width="0.1524" layer="91"/>
+<label x="109.22" y="114.3" size="1.778" layer="95"/>
+<pinref part="D9" gate="G$1" pin="C"/>
+<wire x1="132.08" y1="109.22" x2="132.08" y2="114.3" width="0.1524" layer="91"/>
+<junction x="132.08" y="114.3"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
+<wire x1="132.08" y1="114.3" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TACH_IN\" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="121.92" x2="104.14" y2="121.92" width="0.1524" layer="91"/>
-<label x="104.14" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="22.86" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
+<label x="30.48" y="111.76" size="1.778" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="43.18" y1="114.3" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
-<label x="50.8" y="114.3" size="1.778" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="114.3" x2="86.36" y2="114.3" width="0.1524" layer="91"/>
+<label x="86.36" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TACH_GND" class="0">
 <segment>
-<wire x1="111.76" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
-<label x="104.14" y="111.76" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="111.76" x2="104.14" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="106.68" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
-<junction x="109.22" y="111.76"/>
+<label x="30.48" y="106.68" size="1.778" layer="95" xref="yes"/>
+<wire x1="22.86" y1="106.68" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<label x="48.26" y="109.22" size="1.778" layer="95" xref="yes"/>
-<wire x1="43.18" y1="109.22" x2="48.26" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
+<label x="88.9" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="93.98" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
+<junction x="93.98" y="99.06"/>
 </segment>
 </net>
 <net name="TACH_ISO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="4"/>
-<wire x1="203.2" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="121.92" x2="213.36" y2="127" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="121.92" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="121.92" x2="233.68" y2="127" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="121.92" x2="223.52" y2="121.92" width="0.1524" layer="91"/>
-<junction x="213.36" y="121.92"/>
-<label x="223.52" y="121.92" size="1.778" layer="95" xref="yes"/>
+<wire x1="233.68" y1="121.92" x2="243.84" y2="121.92" width="0.1524" layer="91"/>
+<junction x="233.68" y="121.92"/>
+<label x="243.84" y="121.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="3V3" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="137.16" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="139.7" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
-<label x="223.52" y="139.7" size="1.778" layer="95" xref="yes"/>
+<wire x1="233.68" y1="137.16" x2="233.68" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="139.7" x2="243.84" y2="139.7" width="0.1524" layer="91"/>
+<label x="243.84" y="139.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="3"/>
-<wire x1="203.2" y1="111.76" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="111.76" x2="213.36" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="111.76" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="111.76" x2="233.68" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND14" gate="1" pin="GND"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="93.98" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="43.18" y1="119.38" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="116.84" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND20" gate="1" pin="GND"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="81.28" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TACH_GND_R" class="0">
 <segment>
+<pinref part="R21" gate="G$1" pin="2"/>
+<label x="109.22" y="99.06" size="1.778" layer="95"/>
+<pinref part="D9" gate="G$1" pin="A"/>
 <pinref part="U1" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<label x="124.46" y="111.76" size="1.778" layer="95"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="149.86" y1="111.76" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="114.3" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
-<junction x="149.86" y="111.76"/>
+<wire x1="193.04" y1="111.76" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="111.76" x2="185.42" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="99.06" x2="167.64" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="99.06" x2="132.08" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="104.14" x2="132.08" y2="99.06" width="0.1524" layer="91"/>
+<junction x="132.08" y="99.06"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
+<wire x1="167.64" y1="104.14" x2="167.64" y2="99.06" width="0.1524" layer="91"/>
+<junction x="167.64" y="99.06"/>
 </segment>
 </net>
 <net name="PWR_RAW" class="0">
 <segment>
-<wire x1="43.18" y1="124.46" x2="50.8" y2="124.46" width="0.1524" layer="91"/>
-<label x="50.8" y="124.46" size="1.778" layer="95" xref="yes"/>
+<wire x1="22.86" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
+<label x="30.48" y="121.92" size="1.778" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="4"/>
+</segment>
+<segment>
+<label x="86.36" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="129.54" y1="144.78" x2="86.36" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="TACH_IN_N" class="0">
+<segment>
+<pinref part="Q3" gate="G$1" pin="D"/>
+<wire x1="167.64" y1="121.92" x2="167.64" y2="127" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="U1" gate="G$1" pin="1"/>
+<wire x1="167.64" y1="127" x2="167.64" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="121.92" x2="185.42" y2="127" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="127" x2="167.64" y2="127" width="0.1524" layer="91"/>
+<junction x="167.64" y="127"/>
+<label x="170.18" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWR_RAW_PU" class="0">
+<segment>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="167.64" y1="142.24" x2="167.64" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="144.78" x2="134.62" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<label x="144.78" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -2536,7 +2635,6 @@ t_delay = 120ms</text>
 </instance>
 <instance part="U4" gate="G$0" x="109.22" y="137.16" smashed="yes">
 <attribute name="NAME" x="109.22" y="182.88" size="2.54" layer="95" align="center"/>
-<attribute name="PARTNUMBER" x="109.22" y="86.36" size="2.54" layer="95" align="center"/>
 </instance>
 <instance part="TAG1" gate="G$1" x="88.9" y="27.94" smashed="yes">
 <attribute name="NAME" x="88.9" y="41.91" size="1.778" layer="95" align="center"/>
