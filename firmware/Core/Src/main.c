@@ -41,6 +41,8 @@
 #define ENGINE_CYL_FACTOR (NUMBER_OF_CYLINDERS / 2)
 #define RPS2RPM 60 /* Rotations per second to Rotations per minute */
 
+#define TIM_CALIBRATION 15
+
 /* Set the arbitration ID here */
 #define ENGINE_RPM_ARB_ID    0x090
 
@@ -267,10 +269,12 @@ void HAL_TIM_IC_CaptureCallback( TIM_HandleTypeDef *htim )
     {
         t1 = 0;
         htim->Instance->CNT = 0;
-        t2 = HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_1);
+        t2 = HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_1) + TIM_CALIBRATION;
+        htim->Instance->CCR1 = 0;
+        HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
         if( t2 > 0 )
         {
-           engine_rpm = 300000 / t2;
+           engine_rpm = 30000000 / t2;
            len = snprintf(msg, 64, "%u\n", (uint)engine_rpm);
            //HAL_UART_Transmit_IT(&huart2, (uint8_t*)msg, len);
            Engine_RPM_Tx_CAN_Bus();
