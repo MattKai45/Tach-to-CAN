@@ -140,8 +140,8 @@ static uint8_t Engine_RPM_Tx_CAN_Bus()
     tx_buf[1] = 0x41;
     tx_buf[2] = 0x0C;
     tx_buf[3] = 0x12;
-    tx_buf[4] = (uint8_t)(((engine_rpm / 2) >> 8) & 0xFF);
-    tx_buf[5] = (uint8_t)((engine_rpm / 2) & 0xFF);
+    tx_buf[4] = (uint8_t)(((engine_rpm) >> 8) & 0xFF);
+    tx_buf[5] = (uint8_t)((engine_rpm) & 0xFF);
     tx_buf[6] = 0xff;
     tx_buf[7] = 0xff;
 
