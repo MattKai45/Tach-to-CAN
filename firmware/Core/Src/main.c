@@ -61,8 +61,7 @@
 
 /* USER CODE BEGIN PV */
 
-uint32_t t1 = 0;
-uint32_t t2 = 0;
+uint32_t pulse_t = 0;
 
 uint32_t engine_rpm = 0;
 
@@ -267,21 +266,15 @@ void HAL_TIM_IC_CaptureCallback( TIM_HandleTypeDef *htim )
 {
     if ( htim == RPM_TIM )
     {
-        t1 = 0;
-        htim->Instance->CNT = 0;
-        t2 = HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_1) + TIM_CALIBRATION;
-        htim->Instance->CCR1 = 0;
-        HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
-        if( t2 > 0 )
+        /* Clear count */
+        __HAL_TIM_SET_COUNTER(htim, 0);
+
+        pulse_t = HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_1) + TIM_CALIBRATION;
+        if( pulse_t > 0 )
         {
-           engine_rpm = 30000000 / t2;
-           len = snprintf(msg, 64, "%u\n", (uint)engine_rpm);
-           //HAL_UART_Transmit_IT(&huart2, (uint8_t*)msg, len);
+           engine_rpm = 30000000 / pulse_t;
            Engine_RPM_Tx_CAN_Bus();
         }
-        //HAL_GPIO_TogglePin(DEBUG_OUT_GPIO_Port, DEBUG_OUT_Pin);
-        //engine_rpm = ((t2 - t1) * ENGINE_CYL_FACTOR * RPS2RPM);
-        //engine_rpm = (RPM_TIM_UNITS * 1000) / (( t2 - t1 ) / ENGINE_CYL_FACTOR * RPS2RPM);
     }
 }
 
