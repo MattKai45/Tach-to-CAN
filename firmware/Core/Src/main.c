@@ -77,7 +77,7 @@ CAN_TxHeaderTypeDef Header = {
 
 uint32_t blink = 0;
 #define NORMAL_OPERATION 750
-#define ERROR_MODE       150
+#define ERROR_MODE       100
 uint32_t blink_rate = NORMAL_OPERATION;
 
 /* USER CODE END PV */
@@ -294,6 +294,7 @@ void HAL_TIM_IC_CaptureCallback( TIM_HandleTypeDef *htim )
 void Error_Handler(void)
 {
   /* USER CODE BEGIN Error_Handler_Debug */
+  blink_rate = ERROR_MODE;
   /* User can add his own implementation to report the HAL error return state */
 
   /* USER CODE END Error_Handler_Debug */
